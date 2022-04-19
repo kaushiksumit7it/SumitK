@@ -1,0 +1,17 @@
+package com.hcl.excpetion;
+
+import java.util.LinkedList;
+
+public class LinkedListGetLast {
+
+	public static void main(String[] args) {
+		LinkedList<String> cars = new LinkedList<String>();
+		cars.add("Volvo");
+		cars.add("BMW");
+		cars.add("Ford");
+		cars.add("Mazda");
+
+		// Use getLast() to display the last item in the list
+		System.out.println(cars.getLast());
+	}
+}
