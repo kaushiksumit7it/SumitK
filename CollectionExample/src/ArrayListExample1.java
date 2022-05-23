@@ -14,6 +14,10 @@ class ArrayListExample1 {
 
 		list.add("Harash");
 		list.add("Alex");
+		list.add("Harash");
+		list.add("Alex");
+	///	list.get(3);
+		System.out.println("list size is as -->" + list.size());
 //Traversing list through Iterator  
 		Iterator itr = list.iterator();
 		while (itr.hasNext()) {
